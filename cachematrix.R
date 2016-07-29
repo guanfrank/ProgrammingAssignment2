@@ -6,7 +6,7 @@
 makeCacheMatrix <- function(x = matrix()) {
         # mackeCache Matrix creates an R object that stores a vector and its mean
         # initialize the value m to store the cached inverse value
-        m <- NULL
+        m <- NULL # this m is not cached as mentioned above.
         # set will cache the input matrix x and will reinitialize m
         set <- function(y) {
                 x <<- y
