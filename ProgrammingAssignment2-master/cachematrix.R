@@ -1,5 +1,5 @@
 ## This function creates a special "matrix" object that can cache its inverse.
-
+## the capital X and M are the cashe variables <<-
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL             #    Initializing local variable
     set <-
