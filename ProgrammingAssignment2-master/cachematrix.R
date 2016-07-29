@@ -6,7 +6,7 @@ makeCacheMatrix <- function(x = matrix()) {
         function(y) {
             #  store the matrix to cache X, reset M to NULL
             X <<- y             # store the matrix to X
-            M <<- NULL          # reset the matrix to tell when cacheSolve has run before
+            M <<- NULL          # reset the matrix to tell whether cacheSolve has run before
         }
     get <- function() X         # get the actual matrix
     setM <- function(m) M <<- m             # set the value of Mto m passed in the call to $setM
