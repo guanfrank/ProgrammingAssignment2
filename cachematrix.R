@@ -4,7 +4,7 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
-  m <- NULL
+  m <- NULL # this m is a local variable and never get used again!
        set <- function(y) {
              x <<- y
              m <<- NULL
